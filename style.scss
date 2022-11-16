@@ -49,10 +49,10 @@ body {
 
     &__img img {
         margin: auto;
-        width: 205px;
-        height: 220px;
+        width: 250px;
+        height: 250px;
         border-radius: 50%;
-        object-fit: fill;
+        object-fit:contain;
         display: block;
         box-shadow: 0 10px 60px -10px rgba(13, 28, 39, .5);
     }
